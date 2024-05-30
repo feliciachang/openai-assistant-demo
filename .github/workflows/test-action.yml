@@ -13,7 +13,7 @@ jobs:
         uses: jamsocket/jamsocket-deploy-action@v0.1.0
         with:
           jamsocket_api_token: ${{ secrets.JAMSOCKET_API_TOKEN }}
-          jamsocket_account: my-jamsocket-account
-          jamsocket_service: my-jamsocket-service
+          jamsocket_account: ffeliciachang
+          jamsocket_service: nextjs-demo
           docker_build_context: '.'
           dockerfile_path: ./Dockerfile.jamsocket
